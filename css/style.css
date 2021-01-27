@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole generali */
+.section-grey{
+  width: 100%;
+  height: 10vh;
+  background-color: grey;
+}
+
+main, footer{
+  width: 70%;
+  margin:auto;
+}
+
+/* regole header */
+header{
+  height: 10vh;
+  background-color: blue;
+}
+
+
+.jumbotron{
+  width: 100%;
+  height: 20vh;
+  background-color: lightblue;
+}
+
+.row{
+  width: 100%;
+  height: 20vh;
+}
+
+.row.why{
+  background-color: green;
+}
+
+.row.how{
+  background-color: darkgreen;
+}
