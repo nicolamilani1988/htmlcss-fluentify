@@ -9,7 +9,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-main section:first-child, main section:last-child, .row.footer, nav{
+main section:first-child, main section:last-child, footer .container, nav{
   width: 80%;
   margin:auto;
 }
@@ -234,12 +234,17 @@ div hr{
 }
 
 /* regole footer */
-footer .section-grey{
+footer.section-grey{
   height: 100px;
+  position: relative;
 }
 
-.footer-left{
-  float: left;
+.blocco{
+  display: inline-block;
+}
+
+.blocco.sinistra{
+  /* float: left; */
   width: 60%;
   line-height: 100px;
   /* debug */
@@ -247,20 +252,23 @@ footer .section-grey{
   /* background-color: yellow; */
 }
 
-.footer-right{
-  float: right;
+.blocco.centro{
+  /* float: right; */
   width: 20%;
   line-height: 100px;
   /* debug */
   /* background-color: orange; */
 }
 
-.footer-central{
-float: right;
-width: 20%;
+.blocco.destra{
+/* float: right; */
+width: 12%;
+position: absolute;
+bottom:0;
+text-align: center;
 }
 
-.row.footer :last-child > *{
+.blocco.centro > *{
   line-height: 100px;
   }
 
@@ -269,12 +277,4 @@ width: 20%;
     border: 0px;
     background-color: #D3D3D3;
     margin-left: 10px;
-  }
-
-  .footer-central button{
-    display: block;
-  }
-
-  .footer-central{
-    vertical-align: middle;
   }
