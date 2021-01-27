@@ -252,6 +252,11 @@ footer.section-grey{
   /* background-color: yellow; */
 }
 
+.blocco.sinistra a{
+  text-decoration: none;
+  color: black;
+}
+
 .blocco.centro{
   width: 20%;
   line-height: 100px;
