@@ -183,8 +183,11 @@ section.section-grey{
 
 .elemento h3{
   width: 100%;
-  text-align: center;
   height: 50px;
+}
+
+.elemento h3, .elemento div.grey-text{
+  text-align: center;
 }
 
 .elemento.central{
