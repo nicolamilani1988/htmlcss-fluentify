@@ -234,22 +234,20 @@ div hr{
 }
 
 /* regole footer */
-.row.footer{
-  width: 70%;
-  margin: auto;
-}
-
-.footer .elemento{
+.footer .left{
   float: left;
-  width: 40%;
+  width: 50%;
+  /* debug */
   height: 10vh;
   background-color: yellow;
 }
 
-.footer .left{
-  float: left;
-}
-
 .footer .right{
   float: right;
+  background-color: orange;
+  width: 25%;
+}
+
+.elemento.left{
+  padding: 20px 0;
 }
