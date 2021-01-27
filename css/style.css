@@ -6,7 +6,7 @@
 
 /* regole generali */
 body{
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .section-grey{
@@ -70,25 +70,46 @@ li a, #login{
 button{
   background-color: transparent;
   padding: 10px;
-  border: 1px solid white;
   border-radius: 5px;
   font-size: 10px;
 }
 
+#login{
+  border: 1px solid white;
+}
+
 .acid-green{
   background-color: #7CBB02;
+  border: 1px solid #7CBB02;
 }
 
 
 /* regole jumbotron */
 .jumbotron{
   background-image: url('../img/background-header.png');
-  /* background-position: center; */
   background-size: contain;
   background-repeat: no-repeat;
   background-position:right center;
   height: 50vh;
-  background-color: lightblue;
+  background-color: #0C325A;
+  position: relative;
+}
+
+.jumbotron-description{
+  position:absolute;
+  width: 40%;
+  left: 10%;
+  bottom: 100px;
+}
+
+.jumbotron-description h1{
+  font-size: 50px;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.jumbotron button{
+  padding: 20px;
 }
 
 /* regole corpo centrale */
