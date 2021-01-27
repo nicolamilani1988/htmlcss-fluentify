@@ -234,20 +234,47 @@ div hr{
 }
 
 /* regole footer */
-.footer .left{
+footer .section-grey{
+  height: 100px;
+}
+
+.footer-left{
   float: left;
-  width: 50%;
+  width: 60%;
+  line-height: 100px;
   /* debug */
-  height: 10vh;
-  background-color: yellow;
+  /* height: 10vh; */
+  /* background-color: yellow; */
 }
 
-.footer .right{
+.footer-right{
   float: right;
-  background-color: orange;
-  width: 25%;
+  width: 20%;
+  line-height: 100px;
+  /* debug */
+  /* background-color: orange; */
 }
 
-.elemento.left{
-  padding: 20px 0;
+.footer-central{
+float: right;
+width: 20%;
 }
+
+.row.footer :last-child > *{
+  line-height: 100px;
+  }
+
+  select{
+    text-decoration: underline;
+    border: 0px;
+    background-color: #D3D3D3;
+    margin-left: 10px;
+  }
+
+  .footer-central button{
+    display: block;
+  }
+
+  .footer-central{
+    vertical-align: middle;
+  }
